@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Tags" representedClassName="Tags" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alert" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="batterypercentage" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="colorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLongDistance" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isRingTone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastFoundDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ringTone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sosAlert" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sosEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sosMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sosName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Tags" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
